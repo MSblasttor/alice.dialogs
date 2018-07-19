@@ -6,7 +6,7 @@
     </sample>
 
     <input pattern="* (привет*|здравствуй*) *">
-        <output if="full($password)">
+        <output if="full(123)">
             <item value="Привет, $UserName! Рада снова видеть тебя!"/>
             <item value="Здравствуй, $UserName! Я уже успела соскучиться..."/>
             <item value="Добро пожаловать, $UserName! Сколько лет? Сколько зим?"/>
